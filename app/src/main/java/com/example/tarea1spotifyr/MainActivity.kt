@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_splash)
     }
 
     override fun onStart() {
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                 spotifyAppRemote = appRemote
                 Log.d("MainActivity", "Connected! Yay!")
                 // Now you can start interacting with App Remote
-                connected()
+                //connected()
             }
 
             override fun onFailure(throwable: Throwable) {
